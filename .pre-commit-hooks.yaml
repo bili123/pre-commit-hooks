@@ -202,7 +202,7 @@
 -   id: ml-test
     name: ml test
     description: testing stuff
-    entry: ml.sh
+    entry: ./ml.sh
     language: script
     types: [text]
     stages: [commit, push, manual]
