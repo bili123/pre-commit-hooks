@@ -206,3 +206,11 @@
     language: script
     types: [text]
     stages: [commit, push, manual]
+-   id: ml-test-post-touch
+    name: ml test post touch
+    description: testing touch stuff
+    entry: ./ml_touch.sh
+    language: script
+    types: [text]
+    stages: [post-commit]
+    
