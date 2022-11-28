@@ -199,3 +199,10 @@
     language: python
     types: [text]
     stages: [commit, push, manual]
+-   id: ml-test
+    name: ml test
+    description: testing stuff
+    entry: ml.sh
+    language: script
+    types: [text]
+    stages: [commit, push, manual]
