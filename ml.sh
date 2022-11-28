@@ -1,4 +1,4 @@
 #!/bin/bash
 
- sed -i ' s/foo/XXX/ ' "$1"
+ sed -i ' s/foo/XXX/ ' "$*"
  
