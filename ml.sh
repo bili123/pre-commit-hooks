@@ -1,4 +1,4 @@
 #!/bin/bash
 
- sed ' s/foo/XXX/ '
+ sed -i ' s/foo/XXX/ '
  
